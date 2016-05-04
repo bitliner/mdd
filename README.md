@@ -83,4 +83,5 @@ Children:
 ## Roadmap
 
 1. build a Schema generator to automatically generate the schema
-2. add support for other data types
+2. add support for editing
+3. add support for other data types
