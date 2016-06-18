@@ -2,6 +2,7 @@
   "name": "mdd",
   "description": "Model Driven Development utilities to speed up development of web app.",
   "main": "mdd.js",
+  "version":"1.0.0",
   "authors": [
     "bitliner <giovanni.gaglione@gmail.com>"
   ],
