@@ -12,7 +12,14 @@ module.exports = function(config) {
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
         frameworks: ['jasmine'],
         //        plugins:['karma-ng-html2js-preprocessor'],
-        plugins: ['karma-ng-html2js-preprocessor',  'karma-chrome-launcher', 'karma-jasmine', 'karma-mocha-reporter'], //, 'karma-chai-spies', 'karma-sinon-chai'],
+        plugins: [
+            'karma-ng-html2js-preprocessor', 
+            'karma-chrome-launcher', 
+            // 'karma-phantomjs-launcher', 
+            // 'karma-firefox-launcher', 
+            'karma-jasmine', 
+            'karma-mocha-reporter'
+            ], //, 'karma-chai-spies', 'karma-sinon-chai'],
 
 
 
@@ -47,7 +54,6 @@ module.exports = function(config) {
             moduleName: 'templates'
         },
 
-        
 
 
         // test results reporter to use
@@ -71,20 +77,27 @@ module.exports = function(config) {
 
         // enable / disable watching file and executing tests whenever any file changes
         autoWatch: true,
+        // autoWatch: false,
 
 
         // start these browsers
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-        browsers: ['Chrome'],
+        browsers: [
+            'Chrome',
+            // 'Firefox',
+            // 'PhantomJS'
+        ],
 
 
         // Continuous Integration mode
         // if true, Karma captures browsers, runs the tests and exits
-        //singleRun: false,
+        // singleRun: false,
         singleRun: true,
 
         // Concurrency level
         // how many browser should be started simultaneous
-        concurrency: Infinity
+        concurrency: Infinity,
+        browserDisconnectTolerance: 10,
+        // browserNoActivityTimeout: 30000
     })
 }
