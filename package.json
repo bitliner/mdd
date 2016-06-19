@@ -1,0 +1,44 @@
+{
+  "name": "mdd",
+  "version": "1.0.0",
+  "description": "Model Driven Development utilities to speed up development of web app.",
+  "main": "mdd.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "karma": "^0.13.22",
+    "karma-ng-html2js-preprocessor": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-angular-templates": "^1.0.4",
+    "grunt-angular-templateurl-to-template": "^0.1.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha": "^1.0.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.5.3",
+    "ng-html2js": "^2.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitliner/mdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitliner/mdd/issues"
+  },
+  "homepage": "https://github.com/bitliner/mdd#readme"
+}

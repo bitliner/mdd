@@ -1,0 +1,23 @@
+
+
+<!-- ARRAY -->
+<div ng-if="isArray(data)">
+	<div ng-repeat="d in data">
+		<mdd data="d"></mdd>
+	</div>
+	<hr>
+</div>
+
+<!-- SINGLE OBJECT -->
+<div ng-if="isComplexObject(data)">
+	<div ng-repeat="(key,value) in data">
+		{{unCamelCase(key)}} 
+		<br>
+		<mdd data="value"></mdd>	
+	</div>
+</div>
+
+<!-- SIMPLE VALUE -->
+<p ng-if="isSimpleValue(data)">
+	{{data}}	
+</p>
