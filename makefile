@@ -5,6 +5,6 @@ unit:
 build:
 	grunt build && git add -A && git commit -m "+build" && git push --all origin && git push --tags
 publish_patch:
-	make build && bower version patch && git push --all origin && git push --tags
+	bower version patch && git push --all origin && git push --tags
 push:
 	git push --all origin && git push --tags
