@@ -1,8 +1,11 @@
 {
   "name": "mdd",
   "description": "Model Driven Development utilities to speed up development of web app.",
-  "main": ["mdd.js","services/type-utils.js"],
-  "version": "1.0.2",
+  "main": [
+    "mdd.js",
+    "services/type-utils.js"
+  ],
+  "version": "1.0.3",
   "authors": [
     "bitliner <giovanni.gaglione@gmail.com>"
   ],
