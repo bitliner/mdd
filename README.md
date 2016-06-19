@@ -9,24 +9,10 @@ Model Driven Development utilities to speed up development of web app.
 #### Implementation
 
 ```
-<mdd schema="schema" target="listOfObjects" />
+<mdd schema="schema" data="array" />
 ```
 
-where `schema` is
-
-```
-[{
-  firstName: String,
-  surname: String,
-  children:[{
-      firstName: String,
-      surname: String,
-      age: Number 
-    }]
-}]
-```
-
-and `listOfObjects` is
+where `array` is
 ```
 [{
   firstName: 'Naomi',
@@ -74,14 +60,11 @@ Children:
 </p>
 ```
 
-## Current support
-
-* only Angular directive
-* arrays of objects
-* objects whose properties are: array, number or string
 
 ## Roadmap
 
-1. build a Schema generator to automatically generate the schema
-2. add support for editing
-3. add support for other data types
+* ~angular directive~
+* ~support for visualizing data~
+* online demo on bitliner.github.io/mdd
+* support for graphQL/mongoQL
+* support for writing data
