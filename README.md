@@ -63,8 +63,8 @@ Children:
 
 ## Roadmap
 
-* ~angular directive~
-* ~support for visualizing data~
+* ~~angular directive~~
+* ~~support for visualizing data~~
 * online demo on bitliner.github.io/mdd
 * support for graphQL/mongoQL
 * support for writing data
