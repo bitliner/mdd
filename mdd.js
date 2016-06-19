@@ -9,6 +9,9 @@
 angular.module('mdd', [])
 	.directive('mdd', function() {
 		return {
+			scope:{
+				data:'='
+			},
 			templateUrl: 'views/mdd.html',
 			restrict: 'E',
 			link: function postLink(scope, TypeUtils) {

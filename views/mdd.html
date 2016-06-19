@@ -1,22 +1,22 @@
 
 
 <!-- ARRAY -->
-<ul ng-if="isArray(dd)">
-	<li ng-repeat="d in dd">
-		<mdd dd="d"></mdd>
+<ul ng-if="isArray(data)">
+	<li ng-repeat="d in data">
+		<mdd data="d"></mdd>
 	</li>
 </ul>
 
 <!-- SINGLE OBJECT -->
-<ul ng-if="isComplexObject(dd)">
-	<li ng-repeat="(key,value) in dd">
+<ul ng-if="isComplexObject(data)">
+	<li ng-repeat="(key,value) in data">
 		{{key}} 
 		<br>
-		<mdd dd="value"></mdd>	
+		<mdd data="value"></mdd>	
 	</li>
 </ul>
 
 <!-- SIMPLE VALUE -->
-<p ng-if="isSimpleValue(dd)">
-	{{dd}}	
+<p ng-if="isSimpleValue(data)">
+	{{data}}	
 </p>
