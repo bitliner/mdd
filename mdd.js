@@ -12,7 +12,7 @@ angular.module('mdd', [])
 			scope: {
 				data: '='
 			},
-			templateUrl: 'views/mdd.html',
+			templateUrl: 'mdd.html',
 			restrict: 'E',
 			link: function postLink(scope) {
 
