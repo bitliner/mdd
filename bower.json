@@ -3,7 +3,7 @@
   "description": "Model Driven Development utilities to speed up development of web app.",
   "main": [
     "mdd.js",
-    "services/type-utils.js"
+    "services/type-utils.js",
     "services/object-utils.js"
   ],
   "version": "1.0.4",
