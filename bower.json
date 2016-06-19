@@ -6,7 +6,7 @@
     "services/type-utils.js",
     "services/object-utils.js"
   ],
-  "version": "1.0.5",
+  "version": "1.0.6",
   "authors": [
     "bitliner <giovanni.gaglione@gmail.com>"
   ],
