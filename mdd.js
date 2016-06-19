@@ -7,16 +7,17 @@
  * # mdd
  */
 angular.module('mdd', [])
-	.directive('mdd', function() {
+	.directive('mdd', function(TypeUtils, ObjectUtils) {
 		return {
-			scope:{
-				data:'='
+			scope: {
+				data: '='
 			},
 			templateUrl: 'views/mdd.html',
 			restrict: 'E',
-			link: function postLink(scope, TypeUtils) {
+			link: function postLink(scope) {
 
 				angular.extend(scope, TypeUtils);
+				angular.extend(scope, ObjectUtils);
 
 				console.log('ola')
 

@@ -4,6 +4,7 @@
   "main": [
     "mdd.js",
     "services/type-utils.js"
+    "services/object-utils.js"
   ],
   "version": "1.0.4",
   "authors": [
